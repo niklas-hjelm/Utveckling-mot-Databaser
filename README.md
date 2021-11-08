@@ -13,6 +13,6 @@
 ### [Vecka 50](./assets/V50.md) EntityFramework
 ### [Vecka 51](./assets/V51.md) NoSQL - MongoDB
 ### [Vecka 1](./assets/V1.md) NoSQL - CosmosDB
-### [Vecka 2](./assets/V2.md) Tenta
+### [Vecka 2](./assets/V2.md) Azure
 
 ## Labbar
