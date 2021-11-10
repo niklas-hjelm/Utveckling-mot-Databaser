@@ -1,6 +1,7 @@
 # Utveckling-mot-Databaser
 
 ## Gloslista
+[Vanliga operationer - Lathund](./assets/Vanliga%20operationer.md)
 
 ## Kursmål
 
