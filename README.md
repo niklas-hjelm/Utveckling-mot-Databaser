@@ -3,6 +3,11 @@
 ## Gloslista
 [Vanliga operationer - Lathund](./assets/Vanliga%20operationer.md)
 
+## Övningar
+
+### Lösningar
+[Lösningar övningsuppgifter 1 - CRUD](./assets/Lösningar/övningar1a.sql)
+
 ## Kursmål
 
 ## Veckoplanering
