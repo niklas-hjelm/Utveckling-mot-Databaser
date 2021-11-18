@@ -6,7 +6,8 @@
 ## Övningar
 
 ### Lösningar
-[Lösningar övningsuppgifter 1 - CRUD](./assets/Lösningar/övningar1a.sql)
+* [Lösningar övningsuppgifter 1 - CRUD](./assets/Lösningar/övningar1a.sql)
+* [Lösningar övningsuppgifter 2 - Aggregering](./assets/Lösningar/LösningarÖvningar2.sql)
 
 ## Kursmål
 
@@ -22,3 +23,5 @@
 ### [Vecka 2](./assets/V2.md) Azure
 
 ## Labbar
+
+### [Labb 1](./assets/Labbar/Labb1.md)
