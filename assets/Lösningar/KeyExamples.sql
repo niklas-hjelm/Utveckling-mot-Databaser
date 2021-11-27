@@ -55,7 +55,7 @@
 --INSERT INTO Cities (Id, CountryId, [Name], [Population]) VALUES(7,3,'Bergen', 271949);
 --INSERT INTO Cities (Id, CountryId, [Name], [Population]) VALUES(8,4,'Helsinki', 558457);
 --INSERT INTO Cities (Id, CountryId, [Name], [Population]) VALUES(9,4,'Espoo', 256760);
---INSERT INTO Cities (Id, CountryId, [Name], [Population]) VALUES(10,5,'Reykjavík', 128793);
+--INSERT INTO Cities (Id, CountryId, [Name], [Population]) VALUES(10,5,'Reykjavï¿½k', 128793);
 -- GO
 
 --**************************************************************************************************
