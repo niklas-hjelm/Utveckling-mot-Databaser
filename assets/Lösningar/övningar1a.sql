@@ -304,3 +304,12 @@ select
     9.0 / 2.0
 select
     datetime2fromparts(2019, 1, 5, 9, 12, 0, 3254, 6)
+
+
+select 
+	format(count(distinct ProductId) / 77.0, 'p') as Andel 
+from 
+	company.orders orders
+	join company.order_details details on orders.id = details.OrderId
+where
+	orders.ShipCity like 'London';
