@@ -22,14 +22,40 @@
 --När man exekverar SP:n så ska de rader
 --som matchar username i ”ActiveUsers” flyttas över till
 --”DeletedUsers”. SP:n ska returnera hur många rader som flyttats.
---create procedure spDeleteUser @username nvarchar(6)
---as
---	insert into DeletedUsers 
---		select * from ActiveUsers 
---		where UserName = @username
+Alter procedure spDeleteUser
+@username nvarchar(6),
+@rowsAffected int = 0 OUTPUT
+as
+	insert into DeletedUsers 
+		select * from ActiveUsers 
+		where UserName = @username
 
---	delete from ActiveUsers 
---		where UserName = @username
+	delete from ActiveUsers 
+		where UserName = @username
+	set @rowsAffected = @@ROWCOUNT
+return
+GO
+
+DECLARE @test int = 0
+
+EXEC spDeleteUser 'milalb', @rowsAffected = @test OUTPUT
+select @test
+select * from DeletedUsers where UserName = 'milalb'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	--declare @usersToDelete table
 	--(
 	--	ID nvarchar(12),
@@ -52,7 +78,3 @@
 
 	--insert into DeletedUsers select * from @usersToDelete
 	--delete from ActiveUsers where UserName = @username
-
---EXEC spDeleteUser 'alvlin'
-
---select * from DeletedUsers where UserName = 'alvlin'
