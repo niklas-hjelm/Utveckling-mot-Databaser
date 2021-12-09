@@ -30,7 +30,8 @@ Det finns flera olika sätt att jobba med MongoDB, denna guiden visar både det 
   * **Om inte, starta om VSC**
 * När du trycker på den bör du se detta: </br> ![mongo](./../imgs/notConnected.png)
   * Tryck på lövet för att connecta: </br> ![conn](./../imgs/connected.png)
-  * **Om du inte ser detta, starta om datorn**
+  * **Om du inte ser detta**
+    * Tryck på Add Connection och välj Connect. Klistra sedan in detta:</br> mongodb://localhost:27017/?readPreference=primary&directConnection=true&ssl=false </br> ![conneciton String](./../imgs/connectWithString.png)
 * Starta MongoDB Shell. </br> ![shell](./../imgs/launchShell.png)
 * Du bör nu se detta: </br> ![shell2](./../imgs/shell.png)
   * **Om inte, starta om VSC och datorn om det behövs.**
