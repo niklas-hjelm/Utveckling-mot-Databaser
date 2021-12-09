@@ -29,7 +29,7 @@ Det finns flera olika sätt att jobba med MongoDB, denna guiden visar både det 
 * Du bör nu se denna loggan till vänster i Visual Studio Code: </br> ![leaf](./../imgs/mongoLeaf.png)
   * **Om inte, starta om VSC**
 * När du trycker på den bör du se detta: </br> ![mongo](./../imgs/notConnected.png)
-  * Tryck på lövet för att connecta: ![conn](./../imgs/connected.png)
+  * Tryck på lövet för att connecta: </br> ![conn](./../imgs/connected.png)
   * **Om du inte ser detta, starta om datorn**
 * Starta MongoDB Shell. </br> ![shell](./../imgs/launchShell.png)
 * Du bör nu se detta: </br> ![shell2](./../imgs/shell.png)
