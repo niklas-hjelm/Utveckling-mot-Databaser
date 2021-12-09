@@ -19,7 +19,7 @@ Det finns flera olika sätt att jobba med MongoDB, denna guiden visar både det 
 3. Välj GitBash som default shell i den interna terminalen
    1. ![Öppna Terminalen](./../imgs/New%20Terminal.png)
    2. ![Välj select default profile](../imgs/selectDefaultProfile.png)
-   3. ![välj GitBash](./../imgs/gitBash.png)
+   3. ![välj GitBash](./../imgs/gitBash.png) 
 4. Installera Extension för MongoDB:
    1. ![extensionmgr](./../imgs/extension.png)
    2. ![mongodb](./../imgs/mongoDbextension.png)
